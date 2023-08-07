@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
+}
+
+#background-paragraph {
+  background-image: url("https://i.ibb.co/SnD5h7p/walppaper.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: contrast(10%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1; 
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+nav li a:hover {
+  background-color: #555;
+}
+
+main {
+  filter: contrast(200%);
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+#menu {
+  background-color: #333;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+#menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#menu li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+#menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+#menu li a:hover {
+  background-color: #555;
+}
+
+h2 {
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+label, input, button {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
