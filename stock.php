@@ -8,6 +8,7 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
+<center>
   <div id="background-paragraph"></div>
   <section id="menu">
     <header>
@@ -18,6 +19,7 @@
           <li><a href="shopping.php">Shopping</a></li>
           <li><a href="registro.html">Registro</a></li>
 	  <li><a href="stock.php">Stock</a></li>
+	  <li><a href="add_part.php">Add part</a></li>
         </ul>
       </nav>
     </header>
@@ -82,4 +84,5 @@
     }
   </script>
 </body>
+</center>
 </html>
