@@ -17,6 +17,7 @@
           <li><a href="/">Home</a></li>
           <li><a href="shopping.php">Shopping</a></li>
           <li><a href="registro.html">Registro</a></li>
+	  <li><a href="stock.php">Stock</a></li>
         </ul>
       </nav>
     </header>
@@ -200,3 +201,5 @@
 </body>
 </center>
 </html>
+
+
